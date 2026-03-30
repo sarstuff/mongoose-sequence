@@ -1,7 +1,7 @@
 {
   "name": "mongoose-sequence",
-  "version": "6.0.1",
-  "description": "Very generic autoincrement plugin for mongoose",
+  "version": "7.0.0",
+  "description": "Sequence and autoincrement handling for mongoose",
   "main": "index.js",
   "scripts": {
     "format": "prettier --write \".\"",
@@ -19,20 +19,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ramiel/mongoose-sequence.git"
-  },
-  "author": {
-    "name": "Fabrizio Ruggeri",
-    "email": "fabrizio.ruggeri@gmail.com",
-    "url": "https://www.ramielcreations.com/"
+    "url": "https://github.com/sarstuff/mongoose-sequence.git"
   },
   "license": "GPL-2.0",
-  "dependencies": {
-    "async": "^3.2.5",
-    "lodash": "^4.17.21"
-  },
+  "dependencies": {},
   "peerDependencies": {
-    "mongoose": ">=5"
+    "mongoose": ">=6"
   },
   "devDependencies": {
     "chai": "^4.3.10",
